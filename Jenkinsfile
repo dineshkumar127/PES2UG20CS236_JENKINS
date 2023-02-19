@@ -14,7 +14,7 @@ sh './PES2UG20CS236-1'
 }
 stage('Deploy') {
 steps {
-sh './PES2UG20CS236-1'
+sh 'PES2UG20CS236-1'
 }
 }
 }
